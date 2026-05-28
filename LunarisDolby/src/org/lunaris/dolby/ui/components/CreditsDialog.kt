@@ -23,11 +23,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import org.lunaris.dolby.R
 
 data class Contributor(
     val name: String,
@@ -108,7 +110,7 @@ fun CreditsDialog(
                         )
                         Spacer(modifier = Modifier.height(12.dp))
                         Text(
-                            text = "Credits & Contributors",
+                            text = stringResource(R.string.credits_and_contributors),
                             style = MaterialTheme.typography.headlineMedium,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onPrimaryContainer
@@ -144,7 +146,7 @@ fun CreditsDialog(
                                 )
                                 Spacer(modifier = Modifier.width(12.dp))
                                 Text(
-                                    text = "Thank you to all contributors who made this project possible!",
+                                    text = stringResource(R.string.contributors_thank_you),
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = MaterialTheme.colorScheme.onSecondaryContainer
                                 )
@@ -188,7 +190,7 @@ fun CreditsDialog(
                                 Spacer(modifier = Modifier.width(12.dp))
                                 Column(modifier = Modifier.weight(1f)) {
                                     Text(
-                                        text = "View on GitHub",
+                                        text = stringResource(R.string.view_on_github),
                                         style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold,
                                         color = MaterialTheme.colorScheme.onPrimaryContainer
@@ -210,7 +212,7 @@ fun CreditsDialog(
                     }
                     item {
                         Text(
-                            text = "Main Contributors",
+                            text = stringResource(R.string.main_contributors),
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.primary,
@@ -242,7 +244,7 @@ fun CreditsDialog(
                                 )
                                 Spacer(modifier = Modifier.height(8.dp))
                                 Text(
-                                    text = "And all other contributors",
+                                    text = stringResource(R.string.all_other_contributors),
                                     style = MaterialTheme.typography.bodyMedium,
                                     fontWeight = FontWeight.Medium,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -250,7 +252,7 @@ fun CreditsDialog(
                                 )
                                 Spacer(modifier = Modifier.height(4.dp))
                                 Text(
-                                    text = "Check the GitHub repository for the complete list",
+                                    text = stringResource(R.string.check_github_complete_list),
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
                                     textAlign = TextAlign.Center

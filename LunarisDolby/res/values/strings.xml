@@ -103,6 +103,7 @@
     <string name="choose_equalizer_precision">Choose equalizer precision: more bands = finer control</string>
 
     <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq_title">Intelligent Equalizer</string>
     <string name="dolby_ieq">Intelligent equalizer</string>
     <string name="dolby_balanced">Balanced</string>
     <string name="dolby_warm">Warm</string>
@@ -171,4 +172,34 @@
     <string name="dolby_mid_enhancer">Mid enhancer</string>
     <string name="dolby_mid_level">Mid level</string>
     <string name="dolby_mid_enhancer_summary">Enhances mid-frequency sounds for clearer vocals and instruments</string>
+
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="delete">Delete</string>
+    <string name="equalizer_view">Equalizer View</string>
+    <string name="view_mode_curve">Curve</string>
+    <string name="view_mode_sliders">Sliders</string>
+    <string name="nav_back">Back</string>
+    <string name="surround_virtualizer_title">Surround Virtualizer</string>
+    <string name="dialogue_enhancement_title">Dialogue Enhancement</string>
+    <string name="credits">Credits</string>
+    <string name="export_to_file">Export to file</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="share">Share</string>
+    <string name="clear_all">Clear All</string>
+    <string name="refresh">Refresh</string>
+    <string name="clear_search">Clear search</string>
+    <string name="selected">Selected</string>
+    <string name="band_mode_mismatch_detail">This %1$s preset cannot be edited in %2$s mode. Switch to %1$s or select a compatible preset.</string>
+    <string name="credits_and_contributors">Credits &amp; Contributors</string>
+    <string name="contributors_thank_you">Thank you to all contributors who made this project possible!</string>
+    <string name="view_on_github">View on GitHub</string>
+    <string name="main_contributors">Main Contributors</string>
+    <string name="all_other_contributors">And all other contributors</string>
+    <string name="check_github_complete_list">Check the GitHub repository for the complete list</string>
+    <string name="interactive_frequency_response">Interactive Frequency Response</string>
+    <string name="frequency_response_readonly">Frequency Response (Read-only)</string>
+    <string name="eq_edit_hint">Drag the control points to adjust gain (±15 dB) • %s</string>
+    <string name="eq_readonly_hint">Read-only view • Band mode mismatch</string>
+
 </resources>
